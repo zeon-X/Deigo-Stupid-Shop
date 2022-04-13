@@ -1,0 +1,76 @@
+.orderSummary {
+    background-color: #f3f3f3;
+    height: 85vh;
+
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    z-index: 9;
+
+    overflow-y: scroll;
+}
+
+
+
+hr {
+    border: 1px solid black;
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+.cart-item {
+    background-color: #09abe67b;
+    border-radius: 8px;
+}
+
+
+
+/* BUTTONS |||||| */
+
+/* product add to cart BTN */
+.addToCartBtn {
+    width: 100%;
+    border-radius: 8px;
+    border: 1px solid #09abe67b;
+    padding: 10px 0px;
+    font-size: 18px;
+
+    background-color: white;
+    color: #2270ba;
+}
+.addToCartBtn:hover {
+    background-color: #2270ba;
+    color: white;
+}
+
+/* choose one BTN */
+.chooseBtn{
+    border: 1px solid #4CAF50;
+
+    background-color: white;
+    color: #146616;
+}
+.chooseBtn:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* reset cart BTN */
+.resetBtn{
+    border: 1px solid red;
+
+    background-color: white;
+    color: red;
+}
+.resetBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+
+
+
+.swal2-image {
+    border-radius: 100px !important;
+}
